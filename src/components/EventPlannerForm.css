@@ -1,0 +1,150 @@
+.ep-main {
+  background-color: white;
+}
+
+.backnewplan {
+  background-color: white;
+  border: none;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.newchat {
+  background-color: white;
+  border: none;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* .newchat {
+  background-color: #f0f0f0;          
+  color: #333;                         
+  padding: 5px;
+  border-radius: 9999px;             
+  border: 1px solid #ccc;        
+  font-size: 1.1rem;
+  font-weight: 500;
+ display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  white-space: nowrap; 
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
+} */
+
+.refreshbtn:hover {
+  background-color: #e0e0e0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.ep-session-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+}
+
+.ep-chat-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  /* background: #f9f9f9; */
+}
+
+.ep-chat-section {
+  margin-bottom: 16px;
+}
+
+.ep-chat-section h4 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.ep-form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 30px;
+}
+
+.ep-form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.ep-form-field label {
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+  color: #555;
+}
+
+.ep-form-field input {
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  background-color: #eee;
+  font-size: 1rem;
+}
+
+.ep-ai-parsed-response h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 1em 0 0.5em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2px;
+}
+
+.ep-ai-parsed-response p {
+  font-size: 18px;
+  margin: 0.3em 0;
+}
+
+.ep-ai-parsed-response ul {
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+.ep-ai-parsed-response li {
+  margin: 0.2em 0;
+  font-size: 16px;
+}
+
+.ep-ai-parsed-response div {
+  font-size: 16px;
+  margin: 0.2em 0;
+}
+
+.ep-ai-response-section {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.ep-ai-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.ep-ai-table th,
+.ep-ai-table td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.ep-ai-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.ep-ai-parsed-response {
+  font-size: 16px;
+  line-height: 1.6;
+}

@@ -1,0 +1,150 @@
+.login_wrapper {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .login_card {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px #eee;
+    width: 50%;
+    max-width: 420px;
+    text-align: left;
+  }
+  
+  .login_title {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .login_subheading
+  {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .login_form {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .login_input_group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  .login_link_row {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+  
+  .login_label {
+    display: block;
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 4px;
+  }
+  
+  .login_input {
+    width: 80%;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 18px;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .login_input:focus {
+    border: 1.5px solid #3E68FF;
+    outline: none;
+  }
+  
+  .login_button {
+    width: 88%;
+    padding: 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 9999px;
+    font-size: 16px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .login_button:hover
+  {
+    background-color: #212020;
+  }
+  
+  .login_text {
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .login_link {
+    color: #0077ff;
+    text-decoration: none;
+    /* font-weight: 600; */
+  }
+
+.login_link:hover
+{
+    text-decoration: underline;
+}
+  
+  .login_footer_links {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #aaa;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .login_footer_link {
+    color: #888;
+    text-decoration: none;
+  }
+
+  .login_error {
+    color: #ff3b3b;
+    font-size: 16px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+  }
+
+ 
+.login_link_button {
+    background: none;
+    border: none;
+    color: #0077ff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 4px;
+    position: relative;
+    right: 160px;
+  }
+  
+  .login_success {
+    color: green;
+    font-size: 14px;
+    margin-top: 8px;
+  }
