@@ -134,6 +134,13 @@ Please provide:
     const prompt = buildPrompt();
 
     try {
+      console.log({
+          ...form,
+          prompt,
+          chatType: "initial",
+          userId,
+          chatSessionId,
+        });
       const response = await axios.post(
         "https://a5sk2d26npd4uyqvabpza5h4fi0dlkkk.lambda-url.us-east-1.on.aws/",
         {
