@@ -37,7 +37,7 @@ function Login() {
 
     user.authenticateUser(authDetails, {
       onSuccess: (data) => {
-        console.log("Login Success:", data);
+       
       
         const user = data.getAccessToken().decodePayload();
         const emailFromToken = user.email;
@@ -47,7 +47,7 @@ function Login() {
         navigate("/EventPlannerForm");
       },
       onFailure: (err) => {
-        console.error("Login Error:", err);
+      
         if (err.code === "UserNotFoundException") {
           setErrorMsg("Account not found. Please check your email.");
         } else if (err.code === "NotAuthorizedException") {
@@ -72,12 +72,12 @@ function Login() {
 
     user.forgotPassword({
       onSuccess: (data) => {
-        console.log("OTP sent for reset", data);
+        
         setShowForgot(true);
         setResetMsg("OTP sent to your email.");
       },
       onFailure: (err) => {
-        console.error("Forgot Password Error:", err);
+   
         setErrorMsg(err.message || "Failed to send reset code.");
       },
     });
@@ -94,7 +94,7 @@ function Login() {
         setPassword("");
       },
       onFailure: (err) => {
-        console.error("Reset Error:", err);
+        
         setErrorMsg(err.message || "Reset failed.");
       },
     });
