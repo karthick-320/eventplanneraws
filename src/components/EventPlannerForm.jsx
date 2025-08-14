@@ -158,7 +158,7 @@ Please provide:
 
       if (table.length > 1) setTableData(table);
     } catch (err) {
-      console.error("API Error:", err);
+      
       setResult("Error generating event plan.");
     } finally {
       setLoading(false);
@@ -193,7 +193,7 @@ Please provide:
       ]);
       setFollowUp("");
     } catch (err) {
-      console.error("Follow-up Error:", err);
+      
       setFollowUps([
         ...followUps,
         { question: followUp, answer: "Error getting answer." },
