@@ -17,10 +17,10 @@ function Confirm() {
 
     user.confirmRegistration(code, true, (err, result) => {
       if (err) {
-        console.error("❌ Confirmation Error:", err);
+       
         alert(err.message || "Confirmation failed");
       } else {
-        console.log("✅ Confirmation Success:", result);
+
         alert("✅ Email confirmed! You can now log in.");
       }
     });
